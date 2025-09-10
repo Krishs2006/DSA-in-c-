@@ -1,2 +1,2 @@
-# DSA-in-c-
+# DSA-in-c++
 Code related concepts of DSA
