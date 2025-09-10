@@ -1,7 +1,6 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
-
 int main(){
     int n,med,x;
     cout<<"enter the length of the list ";
@@ -18,15 +17,13 @@ cout<<"enter elements in the array ";
     }
     cout <<"enter the element you want to find"<<endl;
     cin>>x;
-    
     int lower=0,high=n-1;
     while (lower<=high){
         med=(lower+high)/2;
         if(arr[med]==x){
             cout<<"Found "<<x<<" at index value "<<med<<endl;
       return 0;
-      }
-        else if (arr[med]<x){
+      }else if (arr[med]<x){
             high=high;
             lower=med+1;
         }
